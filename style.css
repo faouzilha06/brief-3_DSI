@@ -254,11 +254,22 @@ span p{
     width: 100%;
     font-size:23px;
     font-weight: 400;
-    font-style: normal;
+    font-style: sans-serif;
     /* top:3128.07px; */
     margin: 5px 0px 10px 0px;
 }
-
+#finale address{
+    text-align: center;
+    font-family: 'Roboto';
+    text-align: center;
+    padding-bottom: 10px;
+    color: #FFFFFF;
+    line-height: 28px;
+    height: 50px;
+    font-size:23px;
+    font-weight: 400;
+    font-style: sans-serif;
+}
 .section .contact p{
 font-family: 'roboto'  sans serif;
 font-style: normal;
@@ -308,12 +319,12 @@ input::placeholder {
     top: 10px;
     left: 15px;
 } 
- 
-.reseausocial{
+ .reseausocial{
     display: flex;
     align-items: center;
     background-color: #124A85;
-    margin-top: 10px
+    margin-top: 10px;
+    margin-left: 50px;
 }
 .reseau1{
     background-color: #FFFFFF;
@@ -327,25 +338,7 @@ input::placeholder {
     padding-left: 10px;
     padding-top: 5px;
 }
-/* #reseaux .reseausocial{
-    width: 100%;
-    padding-left: 82px;
- 
-}
-/* #reseaux{
-    display:flex;
-    flex-direction: row;
-    background-color: #124A85;
-    height: 200px;
-}
-.reseausocial{
-   align-items: center;
-}
-.reseau1{
-    background-color: #FFFFFF;
-    border-radius: 50%;
-    color: #11417D;
-} */
+
 
 
 
