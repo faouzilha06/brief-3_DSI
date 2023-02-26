@@ -343,7 +343,11 @@ input::placeholder {
     padding-top: 5px;
 }
 
-@media  screen and(min-width: 770px){ 
+@media  screen and (min-width: 770px){ 
+    #burger{
+        display: none;
+    }
+
     #burger:checked~.menuburger ul{
         width: 90%;
         right: 5%;
@@ -353,13 +357,20 @@ input::placeholder {
     }
      .reseausocial{
         justify-content: center;
-        margin: Opx;
+        margin: Opx; 
     }
-    .rsgnt p {
+    #finale p{
+        text-align: center;
+        padding-left: 28px;
+    }
+    .rsgnt p{
         width: 58%;
         height: 28px;
-        padding-left: 91px;;
+        padding-left: 91px;
     }
+
+    
+}
    
     /* .reseausocial{
         margin-left: 200px;
@@ -372,7 +383,7 @@ input::placeholder {
     /* #finale p{
         width: 32%;
     } */
-}
+
 
 
 
