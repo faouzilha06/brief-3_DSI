@@ -92,6 +92,7 @@ ul li{
 h1{
     padding-top: 160px;
     padding-bottom: 40px;
+    margin: 32px 0px;
 }
 h1 span{ 
     color: #FD8A69;
@@ -215,7 +216,7 @@ span p{
 
 #finale h2{
     text-align: center;
-    margin:50px 0px;
+    margin:40px 0px;
     color:#FFFFFF
 }
 
@@ -250,7 +251,7 @@ span p{
     padding-bottom: 10px;
     color: #FFFFFF;
     line-height: 28px;
-    height: 50px;
+    height: 40px;
     width: 100%;
     font-size:23px;
     font-weight: 400;
@@ -262,14 +263,15 @@ span p{
     text-align: center;
     font-family: 'Roboto';
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 120px;
     color: #FFFFFF;
-    line-height: 28px;
+    line-height: 30px;
     height: 50px;
     font-size:23px;
     font-weight: 400;
     font-style: sans-serif;
 }
+
 .section .contact p{
 font-family: 'roboto'  sans serif;
 font-style: normal;
@@ -293,6 +295,7 @@ input::placeholder {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
+    width: 58%;
     height: 28px;
     text-align:left;
     color:#FFFFFF;
@@ -337,6 +340,24 @@ input::placeholder {
 .reseau1 i{
     padding-left: 10px;
     padding-top: 5px;
+}
+@media only screen and(min-width: 770px) {
+    #burger:checked~.menuburger ul{
+        width: 90%;
+        right: 5%;
+    }
+    .navbar img{
+        width: 70%;
+    }
+    /* #finale p{
+        width: 32%;
+    } */
+    .formulaire{
+        padding: 0px 157px;
+    }
+    /* .formulaire.rsgnt p{
+        padding-left: 91px;
+    } */
 }
 
 
