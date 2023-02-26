@@ -235,7 +235,7 @@ span p{
     text-align: center;
     padding-bottom: 10px;
     color: #FFFFFF;
-    line-height: 28px;
+    line-height: 70px;
     height: 50px;
     width: 100%;
     font-size:23px;
@@ -291,16 +291,16 @@ input::placeholder {
     align-items: center;
 }
 .rsgnt p{
-    font-family: 'roboto' sans-serif;
+    /* font-family: 'roboto' sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 20px; */
     width: 58%;
     height: 28px;
-    text-align:left;
+    /* text-align:left;
     color:#FFFFFF;
     text-shadow:#000000;
-    margin: 0px;
+    margin: 0px; */
 }
 
  #button{
@@ -328,6 +328,7 @@ input::placeholder {
     background-color: #124A85;
     margin-top: 10px;
     margin-left: 50px;
+    margin-right: 10px;
 }
 .reseau1{
     background-color: #FFFFFF;
@@ -341,7 +342,8 @@ input::placeholder {
     padding-left: 10px;
     padding-top: 5px;
 }
-@media only screen and(min-width: 770px) {
+
+@media  screen and(min-width: 770px){ 
     #burger:checked~.menuburger ul{
         width: 90%;
         right: 5%;
@@ -349,16 +351,29 @@ input::placeholder {
     .navbar img{
         width: 70%;
     }
-    /* #finale p{
-        width: 32%;
-    } */
-    .formulaire{
-        padding: 0px 157px;
+     .reseausocial{
+        justify-content: center;
+        margin: Opx;
     }
+    .rsgnt p {
+        width: 58%;
+        height: 28px;
+        padding-left: 91px;;
+    }
+   
+    /* .reseausocial{
+        margin-left: 200px;
+        margin-right: 150px;
+    } */
+    
     /* .formulaire.rsgnt p{
         padding-left: 91px;
     } */
+    /* #finale p{
+        width: 32%;
+    } */
 }
+
 
 
 
