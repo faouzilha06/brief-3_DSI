@@ -326,6 +326,9 @@ footer {
     .reseaux {
         margin-bottom: 20px;
     }
-
+    .menunav{
+        display: none;
+    }
+   
 
 }
