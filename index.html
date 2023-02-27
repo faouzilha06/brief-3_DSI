@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="image/logo_DSI_Med.png" type="image/x-icon">
     <link rel="shortcut icon" href="img/logo_DSI_Med.png" type="image/x-icon">
     
     <title>CDA SOPHIA 2023</title>
@@ -30,14 +31,14 @@
         <label for="burger"><i class="fa-solid fa-bars fa-2x"></i></label>
         <div class="menuburger">
             <ul>
-                <li><a href="#">NOS FORMATIONS</a></li>
-                <li><a href="#">NOUS RECRUTONS</a></li>
-                <li><a href="#">NOS MÉTIERS</a></li>
-                <li><a href="#">VOS AVANTAGES</a></li>
-                <li><a href="#">HANDICAP AU TRAVAIL</a></li>
-                <li><a href="#">NOUS CONNAITRE</a></li>
-                <li><a href="#">ACTUALITES</a></li>
-                <li><a href="#">NOUS CONTACTER</a></li>
+                <li><a href="https://www.dsi-ap.com/site_dsi/nos-metiers/projets-numeriques/informatique.html#">NOS FORMATIONS</a></li>
+                <li><a href="https://ecandidature.dsi-ap.com/">NOUS RECRUTONS</a></li>
+                <li><a href="https://www.dsi-ap.com/site_dsi/nos-metiers/projets-numeriques/informatique.html">NOS MÉTIERS</a></li>
+                <li><a href="https://www.dsi-ap.com/site_dsi/vos-avantages.html">VOS AVANTAGES</a></li>
+                <li><a href="https://www.dsi-ap.com/site_dsi/nous-connaitre/entreprise-adaptee.html">HANDICAP AU TRAVAIL</a></li>
+                <li><a href="https://www.dsi-ap.com/site_dsi/nous-connaitre/plus-de-20-ans-d-histoire.html">NOUS CONNAITRE</a></li>
+                <li><a href="https://www.dsi-ap.com/site_dsi/actualites.html">ACTUALITES</a></li>
+                <li><a href="#contact">NOUS CONTACTER</a></li>
             </ul>
         </div>
     </div>
@@ -69,7 +70,7 @@
     </div>
 </main>
 <footer>
-    <div class="contact">
+    <div class="contact" id="contact">
       <h3>NOUS CONTACTER</h3>
       <p>80 Route des Lucioles</p>
       <p>Les Espaces de Sophia</p>
@@ -78,41 +79,26 @@
       <p class="tel">Tél: 05 62 74 10 00</p>
       <p class="mail">accueil@dsi-ap.com</p>
       <div class="reseaux">
-        <i class="fa-brands fa-facebook-f"></i>
-        <i class="fa-brands fa-twitter"></i>
-        <i class="fa-brands fa-instagram"></i>
+        <a href="https://www.facebook.com/distributionservicesindustrielsmed/"><i class="fa-brands fa-facebook-f fa-2x"></i></a>
+        <a href="https://twitter.com/?lang=fr"><i class="fa-brands fa-twitter fa-2x"></i></a>
+        <a href="https://fr.linkedin.com/"><i class="fa-brands fa-instagram fa-2x"></i></a>
       </div>
     </div>
     <div class="line"></div>
-    <!-- FORMULAIRE DE CONTACT -->
     <div class="contact_form">
       <div class="formulaire">
         <p>Nom Prénom</p>
         <input
-          type="text"
-          name="name"
-          id="name"
-          placeholder="Bouchard Gerard"
-        />
+          type="text" name="name" id="name" placeholder="Nom Prénom"/>
         <p>Entreprise</p>
         <input
-          type="text"
-          name="entreprise"
-          id="entreprise"
-          placeholder="Simplon"
-        />
+          type="text" name="entreprise" id="entreprise" placeholder="Entreprise"/>
         <p>Mail</p>
-        <input
-          type="email"
-          name="email"
-          id="email"
-          placeholder="simplon@gmail.com"
-        />
+        <input 
+        type="email" name="email" id="Email" placeholder=" Email"/>
       </div>
       <input type="button" value="Envoyer" id="btn" />
-    </div>
-  
-    
+    </div> 
   </footer>
 </body>
 </html>
