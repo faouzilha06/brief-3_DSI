@@ -14,6 +14,18 @@
     <header>
     <div class="navbar">
         <img src="image/logo_DSI_Med.png" alt="logo logo_DSI_Med">
+        <div class="menunav">
+            <ul>
+                <li><a href="#">NOS FORMATIONS</a></li>
+                <li><a href="#">NOUS RECRUTONS</a></li>
+                <li><a href="#">NOS MÉTIERS</a></li>
+                <li><a href="#">VOS AVANTAGES</a></li>
+                <li><a href="#">HANDICAP AU TRAVAIL</a></li>
+                <li><a href="#">NOUS CONNAITRE</a></li>
+                <li><a href="#">ACTUALITES</a></li>
+                <li><a href="#">NOUS CONTACTER</a></li>
+            </ul> 
+        </div>
         <input type="checkbox" name="burger" id="burger">
         <label for="burger"><i class="fa-solid fa-bars fa-2x"></i></label>
         <div class="menuburger">
@@ -49,67 +61,58 @@
         <button id="btn7">L'OETH</button>
         <button id="btn8">LE HANDICAP</button>
     </section>
-    <div id="graphique">
-        <div>
-            <img src="image/camembert.png" alt="graphique">
-        </div>
-        <div>
-            <i class="fa-solid fa-coins fa-6x"></i>
-            <p><span>32</span>M€ <br>de CA</p>
-        </div>
-        <div>
-            <i class="fa-brands fa-accessible-icon fa-6x"></i>
-            <p><span>78 %</span>de salariés en situation<br> de handicap</p>
-        </div>
-        <div>
-            <i class="fa-solid fa-chart-line-up fa-6x"></i>
-            <p><span>15%</span> croissance par an</p>  
-        </div>
-        <div>
-            <i class="fa-solid fa-users fa-6x"></i>
-            <p><span>1185</span>employés</p>
-        </div>
-        <div>
-            <i class="fa-solid fa-clipboard-check fa-6x"></i>
-            <p><span>177</span>embauches en 2020</p>
-        </div>
+    <div class="camembert">
+        <img src="./image/SECTION CAMEMBERT.png" alt="camembert">
+    </div>
+    <div class="camembert_desktop">
+        <img src="./image/SECTION CAMEMBERT DESKTOP.png" alt="camembert_desktop">
     </div>
 </main>
-<div id="finale">
-    <h2>CONTACTEZ NOUS</h2>
-    <address>80 Route des Lucioles <br>Les Espaces de
-        Sophia<br> Bâtiment K <br>06560 VALBONNE
-    </address>
-    <div id="tel">05 62 74 10 00</div>   
-    <a href="mailto:votreadresse@mail.fr">accueil@dsi-ap.com </a>      
-    <div class="formulaire">
-        <div class="rsgnt">
-                <p>Nom Prénom</p>
-            <input type="text" placeholder="Nom Prénom" size="30" required>
-                <p>Entreprise</p>
-            <input type="text" placeholder="Entreprise"  size="30" required>
-                <p>Email</p>
-            <input type="Email" placeholder="Email"  size="30" required>       
-            <div id="button">Envoyer</div>
-        </div>        
+<footer>
+    <div class="contact">
+      <h3>NOUS CONTACTER</h3>
+      <p>80 Route des Lucioles</p>
+      <p>Les Espaces de Sophia</p>
+      <p>Batiment K</p>
+      <p>06560 VALBONNE</p>
+      <p class="tel">Tél: 05 62 74 10 00</p>
+      <p class="mail">accueil@dsi-ap.com</p>
+      <div class="reseaux">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </div>
     </div>
-    <div class="reseausocial"> 
-        <div class="reseau1">
-            <i class="fa-brands fa-facebook-f fa-3x"></i>
-            <a href="https://fr-fr.facebook.com/"></a>
-            
-           
-   
-        </div>
-        <div class="reseau1">
-            <i class="fa-brands fa-twitter fa-3x"></i>
-           
-
-        </div>
-        <div class="reseau1">
-            <i class="fa-brands fa-linkedin-in fa-3x"></i>
-        </div>
-    </div>                       
-</div>
+    <div class="line"></div>
+    <!-- FORMULAIRE DE CONTACT -->
+    <div class="contact_form">
+      <div class="formulaire">
+        <p>Nom Prénom</p>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Bouchard Gerard"
+        />
+        <p>Entreprise</p>
+        <input
+          type="text"
+          name="entreprise"
+          id="entreprise"
+          placeholder="Simplon"
+        />
+        <p>Mail</p>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="simplon@gmail.com"
+        />
+      </div>
+      <input type="button" value="Envoyer" id="btn" />
+    </div>
+  
+    
+  </footer>
 </body>
 </html>
