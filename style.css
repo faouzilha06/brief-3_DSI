@@ -56,7 +56,7 @@ ul li{
     height: 50px;
     text-align: center;
     position: fixed;
-    right: 20%;
+    right: 5%;
     z-index: 2;
 }
 .navbar label i{
@@ -87,13 +87,10 @@ ul li{
    color: #000000;
 }
 .boxheader {
+    display: flex;
     color: #FFFFFF;
-    /* font-family: sans-serif; */
+    align-items: center;
     text-align: center;
-    /* justify-content: space-between; */
-    padding-top: 110px;
-    /* padding-left: 35px; */
-    /* background: rgb(13,49,80); */
     background: linear-gradient(126deg, rgba(13,49,80,1) 0%, rgba(62,93,130,1) 45%, rgba(112,126,144,1) 100%);
 }
 h1{
@@ -107,6 +104,7 @@ h1 span{
 }
 .titre{
     display: flex;
+    width: 75%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -116,8 +114,8 @@ h1 span{
     /* margin: 15px 10px; */
 /* } */
 .boxheader img{
-    width: 100%;
-    margin-right: 36px;
+    width: 90%;
+    margin-right: 10px;
     border: 1px solid #000000;
 }
 main{
@@ -209,7 +207,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 20%;
+    width: 25%;
   }
   .contact p {
     font-weight: 500;
@@ -314,6 +312,7 @@ footer {
         width: 90%;
         right: 5%;
     }
+
     .navbar img{
         width: 11%;
     }
@@ -381,8 +380,7 @@ footer {
     }
 
 }
-@media  screen and (max-width: 800
-px){
+@media  screen and (max-width: 800px){
     .camembert_desktop {
         display: none;
     }
@@ -390,6 +388,17 @@ px){
         display: flex;
         justify-content: center;
         width: 100%;
+    }
+    .navbar{
+        justify-content:left;
+    }
+    .boxheader{
+        display: flex;
+        flex-direction: column;
+    }
+    .titre{
+        width: 95%;
+        padding: 60px 30px;
     }
     footer {
         flex-direction: column;
